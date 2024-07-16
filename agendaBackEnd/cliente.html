@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Horário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Agende seu horário</h1>
+    <button><a href="index.html" class="button">Voltar</a></button>
+    
+    <form id="appointmentForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Hora:</label>
+        <input type="time" id="time" name="time" required>
+
+        <button type="submit">Agendar</button>
+    </form>
+
+    <div id="availableSlots">
+        <h2>Horários Disponíveis</h2>
+        <ul id="slotList"></ul>
+    </div>
+
+    <script src="cliente.js"></script>
+</body>
+</html>
