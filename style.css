@@ -91,7 +91,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image:  url("./assets/bg.svg");
+  background-image:  url("./assets/premierPrancheta\ 1.svg");
   left: 0;
   top: 0;
   width: 100%;
@@ -166,7 +166,7 @@ i {
   }
 }
 .about {
-  background-color: #06121e;
+  background-color: #1B1F21;
   overflow: hidden;
   color: #ffffff;
 }
