@@ -230,6 +230,40 @@ i {
   max-width: 780px;
 }
 
+.parceriaArea
+{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen  (max-width: 768px){
+  .parceriaArea{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.gridAreaParceiras
+{
+  display: flex;
+  width: 100%;
+  /* background-color: pink; */
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .gridAreaParceiras {
+    flex-direction: column;
+  }
+  img {
+    max-width: 140px;
+  }
+}
+
+.gridAreaParceiras img{
+  margin: 10px;
+}
+
 .tituloWork
 {
   display: flex;
