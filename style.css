@@ -91,7 +91,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image:  url("./assets/premierPrancheta\ 1.svg");
+  background-image:  url("./assets/bg.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -296,6 +296,61 @@ i {
     max-width: 740px;
   }
 }
+
+.depoimentosAreaGeral
+{
+  display: flex;
+  justify-content: center;
+  background-color: #DFDFDF;
+  
+}
+
+.depoimentoArea
+{
+  width: 45%;
+  height:6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 5px;
+  background-color: #DFDFDF;
+}
+
+@media screen and (max-width: 768px) {
+  .depoimentosAreaGeral {
+    display: flex;
+    flex-direction: column;
+  }
+  .depoimentoArea{
+    width: 100%;
+  }
+}
+
+.depoimentoFoto
+{
+  display: flex;
+  align-items: center;
+}
+
+.depoimentoFoto img
+{
+  height: 100%;
+}
+
+.depoimentoTexto
+{
+  font-style: italic;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -316,7 +371,7 @@ i {
   position: fixed;
   bottom: 14px;
   right: 24px;
-  z-index: 99;
+  z-index: 98;
 }
 .btnWhatsApp img {
   max-width: 74px;
