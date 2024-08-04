@@ -230,6 +230,19 @@ i {
   max-width: 780px;
 }
 
+.servicesContent img {
+ width: 100%;
+ max-width: 354px;
+ transition: transform 0.2s;
+ /* box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45); */
+ border-radius: 15px;
+}
+
+.servicesContent img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
 .parceriaArea
 {
   display: flex;
